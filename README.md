@@ -1,16 +1,11 @@
-LightDM Webkit MacOSX Theme
+Carbon LightDM Webkit Theme
 ===========================
 
-This is a LightDM theme for the Webkit greeter which tries to imitate the look and feel of the Mac OSX lion login screen
-
-Demo:
--------------------------
-
-http://www.youtube.com/watch?v=1Frf3QlZ_gw
-
+This is a theme originally based on <https://github.com/Wattos/LightDM-Webkit-MacOSX-Theme>.
 
 Installation Instructions
 -------------------------
+
 You will need LightDM as your login manager. On newer versions of Ubuntu this is already the default. Additionally you will require the webkit greeter. This is done by executing the following command in the command line:
 
 <pre>
@@ -33,13 +28,13 @@ allow-guest=false
 The second step is to install the actual theme. This is done by copying the files of this repository into the following location:
 
 <pre>
-/usr/share/lightdm-webkit/themes/mac
+/usr/share/lightdm-webkit/themes/carbon
 </pre>
 
 Finally, change the /etc/lightdm/lightdm-webkit-greeter.conf file to contain the following line: 
 
 <pre>
-webkit-theme=mac 
+webkit-theme=carbon
 </pre>
 
 Now you can reboot and enjoy the new theme.
